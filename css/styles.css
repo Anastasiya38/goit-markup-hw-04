@@ -178,12 +178,15 @@ img {
 .contact-item .contact-tel {
     padding-top: 32px;
     padding-bottom: 32px;
+    color: var(--secondary-text-color-theme-light);
 }
 
 .contact-email,
 .contact-tel {
     color: var(--secondary-text-color-theme-light);
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .adress-city:hover,
@@ -194,16 +197,26 @@ img {
 .contact-tel:focus {
     color: var(--accent-color);
 }
-
+ .contact-icon{
+    fill: currentColor;
+ }
 
 /* Hero */
 
-.hero{
-    background:var( --secondary-background-color);
+.hero {
+    background: rgba(47, 48, 58, 0.4);
     text-align: center;
+    max-width: 1600px;
     padding-top: 200px;
-    padding-bottom: 200px;        
-} 
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right, var(--overlay-color), var(--overlay-color)), url(../images/hero.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
    
 
  .hero-solution {
@@ -290,6 +303,16 @@ color: var(--primary-text-color-theme-light);
 }
 .feature-item {
     width: 270px;
+
+}
+.thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
 }
 .feature-title {
     margin-bottom: 10px;
