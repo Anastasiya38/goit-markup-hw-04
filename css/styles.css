@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     color: var(--secondary-text-color-theme-light);
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 /* HERO */
 
 .hero {
-    background-color: #2F303A;
+    background-color: #c4c4c4 ;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -209,7 +209,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     text-align: center;
     max-width: 1600px;
     background-image: linear-gradient(to right,rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)), url(../images/fon_hero.png);
+    rgba(47, 48, 58, 0.4)), url(../images/fon_hero.jpg);
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
