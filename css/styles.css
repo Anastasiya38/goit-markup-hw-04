@@ -177,13 +177,6 @@ img {
     margin-right: 50px;
 }
 
-.contact-email,
-.contact-phone {
-    color: var(--secondary-text-color-theme-light);
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
 .adress-city:hover,
 .adress-city:focus,
