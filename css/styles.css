@@ -215,7 +215,7 @@ img {
     max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(to right, var(--overlay-color), var(--overlay-color)), url(../images/fon_hero.jpglast);
+    background-image: linear-gradient(to right, var(--overlay-color), var(--overlay-color)), url(../images/fon_hero.jpg);
     margin-left: auto;
     margin-right: auto;
     background-size: cover;
